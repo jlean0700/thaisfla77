@@ -291,3 +291,24 @@ aside p {
         font-size: 24px;
     }
 }
+
+div.flamengo { 
+   padding-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.thais1 {
+     display: flex;
+     width: 300px;
+     justify-content: center;
+
+}
+
+.thais1 img {
+    width: 50%;
+    height: auto;
+}
