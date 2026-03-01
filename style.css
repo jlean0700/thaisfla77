@@ -299,16 +299,17 @@ div.flamengo {
 .container {
     display: flex;
     justify-content: center;
+    background-color: rgb(68, 66, 66);
 }
 
 .thais1 {
      display: flex;
-     width: 300px;
      justify-content: center;
-
+     width: 400px;
+     
 }
 
 .thais1 img {
-    width: 50%;
+    width: 40%;
     height: auto;
 }
