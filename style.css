@@ -104,6 +104,10 @@ nav a:hover {
     transition-duration: 0.2s;
 }
 
+.texto {
+    white-space: pre-line;
+}
+
 
 main {
     background-color: rgb(192, 187, 187);
