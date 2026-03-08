@@ -1,0 +1,192 @@
+@charset "utf-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Passion+One:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Passion+One:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Sriracha&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+:root {
+    --fonte1: "Verdana", sans-serif;
+    --fonte2: 'Passion One', sans-serif;
+    --fonte3: 'Sriracha', sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+ul {
+    padding: 30px;
+}
+
+strong {
+    color: rgb(253, 253, 253);
+    text-shadow: 2px 2px 6px black;
+    font-size: medium;
+    padding: 5px;
+}
+
+strong:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+    
+}
+
+header > p {
+    padding-bottom: 50px;
+    
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: rgba(180,163,163,0.9);
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.514);
+}
+
+section.imagem p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+section#img01 {
+    background-image: url(../imagens/thais1.jpg);
+    background-position: center;
+}
+
+section#img02 {
+    background-image: url(../imagens/thais2.jpg);
+    
+}
+
+section#img03 {
+    background-image: url(../imagens/thais4.jpg);
+    background-position: center;
+}
+
+.footer-elite {
+    position: relative;
+    background: #000;
+    padding: 70px 20px 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Faixa animada */
+.faixa-topo {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #c40000, transparent);
+    animation: deslizar 2s linear infinite;
+}
+
+@keyframes deslizar {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+/* Ícones */
+.redes-elite {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.redes-elite a {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #fff;
+    background: radial-gradient(circle at top, #1a0000, #000);
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 25px rgba(196, 0, 0, 0.3);
+}
+
+/* Instagram Hover */
+.instagram:hover {
+    background: #E1306C;
+    box-shadow: 0 0 25px #E1306C;
+    transform: translateY(-8px) scale(1.08);
+}
+
+/* WhatsApp Hover */
+.whatsapp:hover {
+    background: #25D366;
+    box-shadow: 0 0 25px #25D366;
+    transform: translateY(-8px) scale(1.08);
+}
+
+.direitos-elite {
+    color: #888;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .redes-elite a {
+        width: 55px;
+        height: 55px;
+        font-size: 24px;
+    }
+}
