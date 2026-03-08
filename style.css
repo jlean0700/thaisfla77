@@ -104,6 +104,10 @@ nav a:hover {
     transition-duration: 0.2s;
 }
 
+.texto {
+    white-space: pre-line;
+}
+
 
 main {
     background-color: rgb(192, 187, 187);
@@ -290,4 +294,26 @@ aside p {
         height: 55px;
         font-size: 24px;
     }
+}
+
+div.flamengo { 
+   padding-left: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.thais1 {
+     display: flex;
+     justify-content: center;
+     width: 400px;
+     
+}
+
+.thais1 img {
+    width: 33%;
+    height: auto;
 }
