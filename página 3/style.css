@@ -1,2 +1,33 @@
 @charset "utf-8";
 
+ body {
+            background-color: #b4aeb9;
+            
+            height: 100vh;
+            font-size: 1.2em;
+            font-weight: bold;
+            width: 90vw;
+            padding: 5px;
+        }
+
+        * { 
+           max-width: 98vw;
+        }
+
+        h1 {
+           background-image: linear-gradient(to right, #e70d0d, #4b5ba3ce, #0d0ad6a8);
+           color: white;
+        }
+
+        img {
+            display: flex;
+            margin: auto;
+            width: 94vw;
+            width: 450px
+        }
+
+a {
+    text-decoration: none;
+    padding: 4px;
+}
+
