@@ -8,10 +8,10 @@
             background-color: #b4aeb9;
             height: 100vh;
             font-size: 1.2em;
-            font-weight: bold;
             width: 93vw;
             max-width: 1200px;
-            min-width: 280px
+            min-width: 280px;
+            font-family: 'Rajdhani';
         }
 
         * { 
