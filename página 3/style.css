@@ -1,17 +1,21 @@
 @charset "utf-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
  body {
             background-color: #b4aeb9;
-            
             height: 100vh;
             font-size: 1.2em;
             font-weight: bold;
-            width: 90vw;
-            padding: 5px;
+            width: 93vw;
+            max-width: 1200px;
+            min-width: 300px
         }
 
         * { 
-           max-width: 98vw;
+           max-width: 93vw;
         }
 
         h1 {
@@ -31,3 +35,83 @@ a {
     padding: 4px;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-elite {
+    position: relative;
+    background: #000;
+    padding: 70px 20px 40px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* 🔴 Faixa animada */
+.faixa-topo {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 200%;
+    height: 4px;
+    background: linear-gradient(90deg, transparent, #c40000, transparent);
+    animation: deslizar 4s linear infinite;
+}
+
+@keyframes deslizar {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+/* Ícones */
+.redes-elite {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.redes-elite a {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #fff;
+    background: radial-gradient(circle at top, #1a0000, #000);
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    box-shadow: 0 0 25px rgba(196, 0, 0, 0.3);
+}
+
+/* Instagram Hover */
+.instagram:hover {
+    background: #E1306C;
+    box-shadow: 0 0 25px #E1306C;
+    transform: translateY(-8px) scale(1.08);
+}
+
+/* WhatsApp Hover */
+.whatsapp:hover {
+    background: #25D366;
+    box-shadow: 0 0 25px #25D366;
+    transform: translateY(-8px) scale(1.08);
+}
+
+.direitos-elite {
+    color: #888888;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .redes-elite a {
+        width: 55px;
+        height: 55px;
+        font-size: 24px;
+    }
+}
