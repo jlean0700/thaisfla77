@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body h1 {
+        font-size: 5vw;
+        font-weight: 100;
+    }
+
+    body p {
+        font-size: 2vw;
+    }
+
+    main p {
+        font-size: 1vw;
+    }
+
+    body img {
+        height: 300px;
+    }
+
+    section p {
+        font-size: 20px;
+    }
+
+    section .imagem {
+        width: 100%;
+        margin: auto;
+    }
+
+    body ul {
+        font-size: 0.7em;
+    }
+
+    section .imagem {
+        width: 800px;
+        background-attachment: scroll;
+    }
+
+    #img01 {
+       width: 600px;
+       background-attachment: scroll;
+       margin: auto;
+    }
+
+     #img02 {
+       width: 600px;
+       background-attachment: scroll;
+       margin: auto;
+    }
+
+}
