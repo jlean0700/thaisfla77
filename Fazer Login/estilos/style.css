@@ -91,12 +91,12 @@ div.campo > i {
 div.campo > input {
     font-size: 1em;
     background-color: white;
-    width: calc(100% - 44.36px);
+    width: calc(100% - 44.39px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-11px);
+    transform: translateY(-12px);
 }
 
 div.campo > input:focus-within {
