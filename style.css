@@ -34,6 +34,8 @@
 
 body {
     background-color: rgb(75, 75, 75);
+    width: 1020px;
+    margin: auto;
 }
 
 
@@ -50,15 +52,15 @@ header {
     text-align: center;
     min-height: 150px;
     padding-top: 40px;
-    width: 100%;
+    
 }
 
 header > h1 {
     color: white;
     margin-bottom: 30px;
     font-size: 2em;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.253);
-    
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.253);    
+    width: 100%;
 }
  
 header > p {
