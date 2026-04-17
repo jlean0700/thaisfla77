@@ -121,7 +121,7 @@ menu a:hover {
 main {
     background-color: rgb(192, 187, 187);
     text-align: justify;
-    min-width: 320px;
+    min-width: 250px;
     max-width: 1000px;
     margin: auto;
     padding: 20px;
