@@ -326,3 +326,7 @@ div.flamengo {
     width: 33%;
     height: auto;
 }
+
+audio {
+    width: 275px;
+}
