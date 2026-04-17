@@ -79,7 +79,7 @@ header h2 {
 
 
 #burguer {
-    background-color: rgb(59, 59, 59);
+    background-image: linear-gradient(to top, #d81212, #242323 );
     display: block;
     color: white;
     text-align: center;
@@ -88,7 +88,7 @@ header h2 {
 }
 
 #burguer:hover {
-    background-color: #55afb6;
+    background-color: #948a8a;
 }
 
 menu {
@@ -103,14 +103,14 @@ menu a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: #535353;
+    background-image: linear-gradient(to right, #d81212, #242323 );
     color: white;
     text-align: center;
     border-top: 2px solid black;
 }
 
 menu a:hover {
-    background-color: #55afb6;
+    background-image: linear-gradient(to top, #d81212, #242323 );
 }
 
 .texto {
