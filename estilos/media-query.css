@@ -3,6 +3,7 @@
 @media screen and (min-width: 481px) {
     #burguer {
         display: none;
+        text-align: center;
     }
 
     menu {

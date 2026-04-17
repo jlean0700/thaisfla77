@@ -50,6 +50,7 @@ header {
     text-align: center;
     min-height: 150px;
     padding-top: 40px;
+    width: 100%;
 }
 
 header > h1 {
@@ -119,7 +120,7 @@ menu a:hover {
 main {
     background-color: rgb(192, 187, 187);
     text-align: justify;
-    min-width: 300px;
+    min-width: 320px;
     max-width: 1000px;
     margin: auto;
     padding: 20px;
