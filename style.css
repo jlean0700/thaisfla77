@@ -27,8 +27,9 @@
 }
 
 * {
-    margin: 0px;
-    padding: 0px; 
+    
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -75,33 +76,39 @@ header h2 {
 }
 
 
-nav {
-    background-image: linear-gradient(to top, #d81212, #242323 );
-    padding: 5px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.267);
-    margin: auto;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 30px;
-}
-
-nav a {
-    font-family: var(--font-destaque);
-    color: black;
-    background-image: linear-gradient(to top, #d81212, #851a1a, #993333 );
-    border-radius: 10px;
-    text-decoration: none;
-    margin-top: 40px;
-    font-weight: bold;
+#burguer {
+    background-color: rgb(59, 59, 59);
+    display: block;
+    color: white;
+    text-align: center;
     padding: 10px;
-    border-radius: 20px;
+    cursor: pointer;
 }
 
-nav a:hover {
-    color: rgb(255, 255, 255);
-    background-color: hsl(189, 73%, 80%);
-    text-decoration: underline;
-    transition-duration: 0.2s;
+#burguer:hover {
+    background-color: #55afb6;
+}
+
+menu {
+    display: none;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #535353;
+    color: white;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+menu a:hover {
+    background-color: #55afb6;
 }
 
 .texto {
