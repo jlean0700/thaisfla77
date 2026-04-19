@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 481px) and (max-width:840px) {
+@media screen and (min-width:480px) and (max-width:840px) {
     * { 
         padding: 0;
         margin: 0;
@@ -10,8 +10,8 @@
 
     .titulo {
             margin-left: -5px;
-            margin-top: -5px;
-            width: 94vw;
+            margin-top: -10px;
+            width: 98%;
             text-align: center;
             margin: auto;
         }
@@ -19,7 +19,7 @@
     .titulo2 {
             margin-left: -5px;
             margin-top: -5px;
-            width: 93vw;
+            width: 98%;
             text-align: center;
             margin: auto;
             padding: 15px;
@@ -59,11 +59,6 @@
         text-decoration: underline;
     }
 
-    .footer-elite {
-        margin: auto;
-        width: 93.3vw;
-    }
-
 
 }
 
@@ -86,16 +81,11 @@
      .titulo {
             margin-left: -5px;
             margin-top: -5px;
-            min-width: 97.4vw;
+            min-width: 95.8vw;
         }
 
     .titulo2 {
-          min-width: 96.3vw;
-    }
-
-    .footer-elite {
-        margin: auto;
-        min-width: 96vw;
+          min-width: 94vw;
     }
 
     img {
